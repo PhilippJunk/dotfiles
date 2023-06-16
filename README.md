@@ -5,3 +5,4 @@ Currently contains configuration for:
 - bash
 - nvim (based on NVChad)
 - starship
+- zellij
