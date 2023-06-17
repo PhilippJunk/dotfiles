@@ -5,3 +5,13 @@ ui {
         hide_session_name true
     }
 }
+
+keybinds {
+    unbind "Ctrl h"
+    move {
+        bind "Ctrl a" { SwitchToMode "Normal"; }
+    }
+    shared_except "move" "locked" {
+        bind "Ctrl a" { SwitchToMode "Move"; }
+    }
+}
