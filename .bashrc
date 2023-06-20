@@ -37,16 +37,22 @@ alias wget='wget -c'
 alias c='clear; ls -lha; echo ''; pwd'
 
 # exa for ls
-alias ls='exa --icons'
+if [ -x "$(command -v exa)" ];
+then
+  alias ls='exa --icons'
+fi
 alias ll='ls -laFh'
 
 # set up bat
-alias cat='bat'
+if [ -x "$(command -v bat)" ];
+then
+  alias cat='bat'
+fi
 
 
 ## Others
 # start starship
 eval "$(starship init bash)"
 
-# start zoxidize
+# start zoxide
 eval "$(zoxide init bash --cmd cd)"
