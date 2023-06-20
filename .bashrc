@@ -47,3 +47,6 @@ alias cat='bat'
 ## Others
 # start starship
 eval "$(starship init bash)"
+
+# start zoxidize
+eval "$(zoxide init bash --cmd cd)"
