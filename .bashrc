@@ -56,3 +56,8 @@ eval "$(starship init bash)"
 
 # start zoxide
 eval "$(zoxide init bash --cmd cd)"
+
+
+## Startup
+# cowsay
+fortune | cowsay -f duck -W 60
