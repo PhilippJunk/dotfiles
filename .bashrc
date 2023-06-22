@@ -60,4 +60,4 @@ eval "$(zoxide init bash --cmd cd)"
 
 ## Startup
 # cowsay
-fortune | cowsay -f duck -W 60
+fortune | cowsay -f duck -W 60 | lolcat
