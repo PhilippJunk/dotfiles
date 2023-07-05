@@ -29,5 +29,9 @@ font:
     x: 0
     y: 0
 
-# shell:
+shell:
   # program: /usr/bin/nu
+  program: /bin/bash
+  args:
+    - -c
+    - zellij
