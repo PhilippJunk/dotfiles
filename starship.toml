@@ -1,3 +1,5 @@
+command_timeout = 1000
+
 [aws]
 symbol = "  "
 format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
@@ -246,6 +248,7 @@ format = '\[[$symbol$environment]($style)\]'
 
 [sudo]
 format = '\[[as $symbol]($style)\]'
+disabled = false
 
 [swift]
 format = '\[[$symbol($version)]($style)\]'
