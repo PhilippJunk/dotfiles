@@ -39,9 +39,9 @@ alias c='clear; ls -lha; echo ''; pwd'
 # exa for ls
 if [ -x "$(command -v exa)" ];
 then
-  alias ls='exa --icons'
+  alias ls='exa --no-icons'
 fi
-alias ll='ls -laFh'
+alias ll='exa --icons -laFh'
 
 # set up bat
 if [ -x "$(command -v bat)" ];
