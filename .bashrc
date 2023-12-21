@@ -1,7 +1,6 @@
 ## Key remapping
 # swap Esc and CAPS
-setxkbmap -option caps:swapescape
-
+# setxkbmap -option caps:swapescape
 
 ##  aliases
 # vim
@@ -14,7 +13,7 @@ alias install='sudo apt-get update && sudo apt-get install'
 alias autoremove='sudo apt-get autoremove'
 
 # jupyter lab
-alias jlab='conda activate base; jupyter lab'
+alias jlab='conda activate jlab; jupyter lab'
 
 # do not delete / or prompt if deleting more than 3 files at a time #
 alias rm='rm -I --preserve-root'
